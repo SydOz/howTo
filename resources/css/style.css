@@ -1,25 +1,54 @@
 *{background-color:bisque ;}
 
 h1{
-font-size:large;
+font-size:larger;
 color:maroon;
 font-weight:600;
-text-align:center
+text-align:center;
 }
 
 h2{
+text-align: center;
 font-size:medium;
 color:maroon;
 }
 
 h3{
+text-align:center;    
 font-size:small;
 color:maroon;
 }
+nav{
+padding: 20px 0 30px 10px;
+width: 70%;
+margin: auto;
 
-button{
+}
+a{
 background-color:maroon;
 color:bisque;
 text-decoration: none;
-padding: 20px;
+padding: 25px;
+transition-duration:.2s;
+border-radius: 50%;
+margin: 5px;
 }
+a:hover{
+border: 5px outset firebrick
+}
+li{
+font-size: medium;
+color: maroon;
+padding: 5px
+}
+.ingredients{
+border-bottom: 5px solid firebrick;
+padding: 0 20px 20px 20px;
+margin: 0 30px 30px 30px;
+}
+.instructions{
+border-bottom: 5px solid firebrick;
+padding: 0 20px 20px 20px;
+margin: 0 30px 30px 30px
+}
+
