@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+}
+body{
+    height: 75%;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    font-family:'Times New Roman', Times, serif;
+    color: hsl(300, 100%, 10%);
+}
+main{
+    padding-top: 15%;
+    padding-bottom: 5%;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    color: hsl(300, 100%, 10%);
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: hsl(300, 100%, 10%);
+}
+h2{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: hsl(300, 100%, 10%);
+}
+h3{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: hsl(300, 100%, 10%);
+}
+h5{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: hsl(300, 100%, 10%);
+}
+p{    
+    font-family: sans;
+    font-style: italic;
+    font-size: 1rem;
+    padding: 30px;
+    color: hsl(300, 100%, 10%);
+}
+li{
+    font-family: sans;
+    font-style: italic;
+    font-size: 1rem;
+    color: hsl(300, 100%, 10%);
+}
+button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: hsl(300, 100%, 10%);
+}
+.dropdown{
+    padding: 40px 25px 25px 75px;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dropdown button{
+    background-color: hsl(300, 100%, 10%);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: hsl(300, 100%, 10%);
+    min-width: 100px;
+}
+.dropdown:hover .content{
+    display: block;
+    color: white;
+    background-color: hsl(300, 100%, 10%);
+}
+.dropdown a:hover{
+    background-color: white;
+}
+.navbar{
+    background-color: hsl(300, 100%, 10%);
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.navbar #logo{
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px;
+    color: white;
+    
+}
+.navbar a:hover #logo{
+    color: hsl(300, 100%, 25%);
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    font-family:'Times New Roman', Times, serif;
+}
+.navbar a:hover{
+    color:hsl(300, 100%, 25%);
+    font-family: 'Times New Roman', Times, serif;  
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(300, 100%, 10%);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family:'Times New Roman', Times, serif;
+}
+.navbar li{
+    float: left;
+    font-family:'Times New Roman', Times, serif;
+}
+img{
+    height: 240px;
+    width: 240px;
+    padding: 5px;
+    margin: 5px 5px 5px 15px;
+}
+aside{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+article{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+section{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: hsl(300, 100%, 10%);
+    text-align: center;
+    padding: 5%;
+    margin: 0;
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
