@@ -13,8 +13,7 @@ body{
     color: hsl(300, 100%, 10%);
 }
 main{
-    padding-top: 15%;
-    padding-bottom: 5%;
+    padding: 50px;
     margin: 0;
     font-family:'Times New Roman', Times, serif;
     color: hsl(300, 100%, 10%);
@@ -39,6 +38,11 @@ h5{
     font-family:'Times New Roman', Times, serif;
     color: hsl(300, 100%, 10%);
 }
+h6{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: hsl(300, 100%, 10%);
+}
 p{    
     font-family: sans;
     font-style: italic;
@@ -53,11 +57,11 @@ li{
     color: hsl(300, 100%, 10%);
 }
 button{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif
     font-size: 1rem;
     font-weight: lighter;
-    color: hsl(300, 100%, 10%);
-}
+    color: hsl(300, 100%,10%);
+} 
 .dropdown{
     padding: 40px 25px 25px 75px;
     display: inline-block;
@@ -69,6 +73,7 @@ button{
     padding: 10px;
     border: none;
     cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
 }
 .dropdown a{
     display: block;
@@ -107,7 +112,7 @@ button{
 }
 .navbar a:hover #logo{
     color: hsl(300, 100%, 25%);
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
 }
 .navbar a{
     color: white;
@@ -167,3 +172,4 @@ footer{
     font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
 }
+
